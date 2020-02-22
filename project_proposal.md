@@ -14,8 +14,8 @@ This could lead to helping define what combinations of parameters make a success
 ## Data Sets
 
 [Rotten Tomatoes Dataset](https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critics-datasets)
-
 [Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)
+[Movie Revenues](https://www.kaggle.com/rounakbanik/the-movies-dataset)
 
 
 ## Project Stack
