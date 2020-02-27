@@ -1,0 +1,210 @@
+,director,score
+0,Steven Spielberg,209
+1,Martin Scorsese,208
+2,Alfred Hitchcock,207
+3,Stanley Kubrick,206
+4,Quentin Tarantino,205
+5,Orson Welles,204
+6,Francis Ford Coppola,203
+7,Ridley Scott,202
+8,Akira Kurosawa,201
+9,Joel Coen,200
+10,Ethan Coen,199
+11,John Ford,198
+12,Sergio Leone,197
+13,Woody Allen,196
+14,Billy Wilder,195
+15,Clint Eastwood,194
+16,Frank Capra,193
+17,Charles Chaplin,192
+18,Christopher Nolan,191
+19,Roman Polanski,190
+20,Ingmar Bergman,189
+21,David Lynch,188
+22,Fritz Lang,187
+23,David Fincher,186
+24,Peter Jackson,185
+25,Federico Fellini,184
+26,Tim Burton,183
+27,James Cameron,182
+28,Sidney Lumet,181
+29,Brian De Palma,180
+30,François Truffaut,179
+31,Terrence Malick,178
+32,David Cronenberg,177
+33,William Wyler,176
+34,Robert Zemeckis,175
+35,Ang Lee,174
+36,Howard Hawks,173
+37,George Lucas,172
+38,Mel Brooks,171
+39,Terry Gilliam,170
+40,Milos Forman,169
+41,Steven Soderbergh,168
+42,John Huston,167
+43,Werner Herzog,166
+44,Oliver Stone,165
+45,David Lean,164
+46,Danny Boyle,163
+47,Rob Reiner,162
+48,Buster Keaton,161
+49,Michael Curtiz,160
+50,Sam Raimi,159
+51,Michael Mann,158
+52,Robert Altman,157
+53,Sam Peckinpah,156
+54,Peter Weir,155
+55,Spike Lee,154
+56,Jean Renoir,153
+57,Andrei Tarkovsky,152
+58,Elia Kazan,151
+59,John Cassavetes,150
+60,Vincente Minnelli,149
+61,Hayao Miyazaki,148
+62,Frank Darabont,147
+63,Kathryn Bigelow,146
+64,George Cukor,145
+65,Ron Howard,144
+66,John Carpenter,143
+67,Guy Ritchie,142
+68,Tony Scott,141
+69,Gus Van Sant,140
+70,Preston Sturges,139
+71,Sergei M. Eisenstein,138
+72,David O. Russell,137
+73,John Frankenheimer,136
+74,Blake Edwards,135
+75,Ernst Lubitsch,134
+76,Jonathan Demme,133
+77,Alejandro G. Iñárritu,132
+78,Sam Mendes,131
+79,Guillermo del Toro,130
+80,Joseph L. Mankiewicz,129
+81,Satyajit Ray,128
+82,Paul Thomas Anderson,127
+83,Wes Anderson,126
+84,Alfonso Cuarón,125
+85,Paul Verhoeven,124
+86,F.W. Murnau,123
+87,Robert Wise,122
+88,Franco Zeffirelli,121
+89,Paul Greengrass,120
+90,F.W. Murnau,119
+91,Don Siegel,118
+92,Vittorio De Sica,117
+93,John Hughes,116
+94,Robert Rodriguez,115
+95,Zack Snyder,114
+96,Mel Gibson,113
+97,Luis Buñuel,112
+98,Greta Gerwig,111
+99,Krzysztof Kieslowski,110
+100,Jean-Luc Godard,109
+101,Tom Hooper,108
+102,William Friedkin,107
+103,Antoine Fuqua,106
+104,Sydney Pollack,105
+105,Bernardo Bertolucci,104
+106,John Lasseter,103
+107,David Ayer,102
+108,J.J. Abrams,101
+109,Mike Nichols,100
+110,Lars von Trier,99
+111,John Milius,98
+112,John McTiernan,97
+113,Costa-Gavras,96
+114,Cecil B. DeMille,95
+115,Darren Aronofsky,94
+116,Luc Besson,93
+117,Doug Liman,92
+118,Bryan Singer,91
+119,Richard Linklater,90
+120,Anthony Minghella,89
+121,Curtis Hanson,88
+122,Michael Haneke,87
+123,D.W. Griffith,86
+124,Alan Parker,85
+125,Edgar Wright,84
+126,Pedro Almodóvar,83
+127,Barry Levinson,82
+128,Michelangelo Antonioni,81
+129,Cameron Crowe,80
+130,Jim Jarmusch,79
+131,Vittorio De Sica,78
+132,Spike Jonze,77
+133,Harold Ramis,76
+134,Michael Moore,75
+135,Shane Meadows,74
+136,Ken Loach,73
+137,Bobby Farrelly,72
+138,Jacques Audiard,71
+139,Gore Verbinski,70
+140,Jay Roach,69
+141,Jim Sheridan,68
+142,John Landis,67
+143,Richard Donner,66
+144,Jason Reitman,65
+145,Robert Redford,64
+146,Andrew Dominik,63
+147,Joss Whedon,62
+148,George Miller,61
+149,David Zucker,60
+150,George A. Romero,59
+151,Mike Leigh,58
+152,David O. Russell,57
+153,Neil Jordan,56
+154,Wilfred Jackson,55
+155,Alan J. Pakula,54
+156,George Roy Hill,53
+157,Michael Powell,52
+158,Richard Donner,51
+159,John Woo,50
+160,Sofia Coppola,49
+161,Sofia Coppola,48
+162,Takashi Miike,47
+163,Brad Bird,46
+164,Alex Gibney,45
+165,Bob Foss,44
+166,Carol Reed,43
+167,Christopher Guest,42
+168,Otto Preminger,41
+169,Peter Bogdanovich,40
+170,David Yates,39
+171,Wes Craven,38
+172,Kevin Smith,37
+173,Fred Zinnemann,36
+174,Ava DuVernay,35
+175,Jean-Pierre Jeunet,34
+176,George Stevens,33
+177,Frank Lloyd,32
+178,Wim Wenders,31
+179,Georges Méliès,30
+180,Wolfgang Petersen,29
+181,Leo McCarey,28
+182,Lewis Milestone,27
+183,Éric Rohmer,26
+184,Lilly Wachowski,25
+185,Neill Blomkamp,24
+186,Warren Beatty,23
+187,Pier Paolo Pasolini,22
+188,Kar-Wai Wong,21
+189,Robert Bresson,20
+190,Emir Kusturica,19
+191,Yasujirô Ozu,18
+192,John Lasseter,17
+193,Michael Haneke,16
+194,Takeshi Kitano,15
+195,Theodoros Angelopoulos,14
+196,James Whale,13
+197,Terence Fisher,12
+198,Chuck Jones,11
+199,Luchino Visconti,10
+200,Alexander Payne,9
+201,Carl Theodor Dreyer,8
+202,Robert Schwentke,7
+203,Michael Cimino,6
+204,Chan-wook Park,5
+205,Stephen Frears,4
+206,Hal Ashby,3
+207,Kevin Costner,2
+208,John Boorman,1
