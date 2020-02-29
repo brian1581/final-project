@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="review_count <= 286.0\ngini = 0.358\nsamples = 539\nvalue = [636, 178, 5, 5]\nclass = 1.0", fillcolor="#eda673"] ;
+1 [label="popularity <= 20.5\ngini = 0.33\nsamples = 504\nvalue = [616, 148, 5, 5]\nclass = 1.0", fillcolor="#eca16b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="vote_count <= 3120.5\ngini = 0.276\nsamples = 436\nvalue = [566, 102, 3, 5]\nclass = 1.0", fillcolor="#ea995f"] ;
+1 -> 2 ;
+3 [label="gini = 0.203\nsamples = 378\nvalue = [526, 59, 3, 5]\nclass = 1.0", fillcolor="#e89152"] ;
+2 -> 3 ;
+4 [label="gini = 0.499\nsamples = 58\nvalue = [40, 43, 0, 0]\nclass = 0.0", fillcolor="#f2fdf1"] ;
+2 -> 4 ;
+5 [label="budget <= 127500000.0\ngini = 0.519\nsamples = 68\nvalue = [50, 46, 2, 0]\nclass = 1.0", fillcolor="#fdf5f0"] ;
+1 -> 5 ;
+6 [label="gini = 0.461\nsamples = 48\nvalue = [46, 26, 0, 0]\nclass = 1.0", fillcolor="#f4c8a9"] ;
+5 -> 6 ;
+7 [label="gini = 0.379\nsamples = 20\nvalue = [4, 20, 2, 0]\nclass = 0.0", fillcolor="#79ec6f"] ;
+5 -> 7 ;
+8 [label="budget <= 155000000.0\ngini = 0.48\nsamples = 35\nvalue = [20, 30, 0, 0]\nclass = 0.0", fillcolor="#c2f6bd"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="vote_count <= 5515.5\ngini = 0.32\nsamples = 19\nvalue = [20, 5, 0, 0]\nclass = 1.0", fillcolor="#eca06a"] ;
+8 -> 9 ;
+10 [label="gini = 0.227\nsamples = 17\nvalue = [20, 3, 0, 0]\nclass = 1.0", fillcolor="#e99457"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2, 0, 0]\nclass = 0.0", fillcolor="#47e539"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 16\nvalue = [0, 25, 0, 0]\nclass = 0.0", fillcolor="#47e539"] ;
+8 -> 12 ;
+}

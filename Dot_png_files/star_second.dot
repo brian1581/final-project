@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Classics <= 0.5\ngini = 0.099\nsamples = 505\nvalue = [768, 38, 4]\nclass = 0.0", fillcolor="#e68844"] ;
+1 [label="vote_average <= 7.35\ngini = 0.085\nsamples = 491\nvalue = [756, 33, 2]\nclass = 0.0", fillcolor="#e68742"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Action & Adventure <= 0.5\ngini = 0.105\nsamples = 389\nvalue = [595, 33, 2]\nclass = 0.0", fillcolor="#e78845"] ;
+1 -> 2 ;
+3 [label="budget <= 77908764.0\ngini = 0.08\nsamples = 224\nvalue = [346, 13, 2]\nclass = 0.0", fillcolor="#e68642"] ;
+2 -> 3 ;
+4 [label="gini = 0.119\nsamples = 150\nvalue = [222, 13, 2]\nclass = 0.0", fillcolor="#e78946"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 74\nvalue = [124, 0, 0]\nclass = 0.0", fillcolor="#e58139"] ;
+3 -> 5 ;
+6 [label="vote_count <= 1069.0\ngini = 0.138\nsamples = 165\nvalue = [249, 20, 0]\nclass = 0.0", fillcolor="#e78b49"] ;
+2 -> 6 ;
+7 [label="gini = 0.305\nsamples = 6\nvalue = [13, 3, 0]\nclass = 0.0", fillcolor="#eb9e67"] ;
+6 -> 7 ;
+8 [label="gini = 0.125\nsamples = 159\nvalue = [236, 17, 0]\nclass = 0.0", fillcolor="#e78a47"] ;
+6 -> 8 ;
+9 [label="gini = 0.0\nsamples = 102\nvalue = [161, 0, 0]\nclass = 0.0", fillcolor="#e58139"] ;
+1 -> 9 ;
+10 [label="popularity <= 11.5\ngini = 0.521\nsamples = 14\nvalue = [12, 5, 2]\nclass = 0.0", fillcolor="#f2c09c"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+11 [label="gini = 0.0\nsamples = 3\nvalue = [0, 4, 0]\nclass = 0.0", fillcolor="#39e581"] ;
+10 -> 11 ;
+12 [label="popularity <= 27.5\ngini = 0.338\nsamples = 11\nvalue = [12, 1, 2]\nclass = 0.0", fillcolor="#eb9e67"] ;
+10 -> 12 ;
+13 [label="runtime <= 120.5\ngini = 0.142\nsamples = 10\nvalue = [12, 1, 0]\nclass = 0.0", fillcolor="#e78c49"] ;
+12 -> 13 ;
+14 [label="gini = 0.278\nsamples = 4\nvalue = [5, 1, 0]\nclass = 0.0", fillcolor="#ea9a61"] ;
+13 -> 14 ;
+15 [label="gini = 0.0\nsamples = 6\nvalue = [7, 0, 0]\nclass = 0.0", fillcolor="#e58139"] ;
+13 -> 15 ;
+16 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 2]\nclass = 0.0", fillcolor="#8139e5"] ;
+12 -> 16 ;
+}
