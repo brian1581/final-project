@@ -19,7 +19,7 @@ What is the recipe for a successful movie? This is an age-old question that we a
 
 
 ## Data Processing 
-We have gathered a movie dataset from Rotten Tomatoes that includes a list of movies, genres, directors, actors, release date, runtime, vote count and vote average. Another dataset from Movielens included the movies' revenue, budget and popularity. The relevant columns are cleaned and joined into one CSV using Python Pandas. The Budget and Revenue columns are adjusted for inflation, which was done by scraping the CPI (Consumer Price Index) from the Federal Reserve Bank of Minneapolis and using that to calculate for inflation. The Star Power column came from counting the actors in the cast included in the IMDB Top 1000 List of Actors and Actresses, which was scrapped from the IMDB website as well. 
+We have gathered a movie dataset from Rotten Tomatoes that includes a list of movies, genres, directors, actors, release date, runtime, vote count and vote average. Another dataset from Movielens included the movies' revenue, budget and popularity. The relevant columns are cleaned and joined into one CSV using Python Pandas. The Budget and Revenue columns are adjusted for inflation, which was done by scraping the CPI (Consumer Price Index) from the Federal Reserve Bank of Minneapolis and using that to calculate for inflation. The Star Power column came from counting the actors in the cast included in the IMDB Top 1000 List of Actors and Actresses, which was scraped from the IMDB website as well. 
 
 During model selection, data are pre-processed by using dummy variables to change categorical information to numerical (specifically the genre column), as well as scaling. Lastly, Python Matplotlib is used to plot the charts showing the vizualization of the results.
 
@@ -28,7 +28,7 @@ During model selection, data are pre-processed by using dummy variables to chang
 
 #### Linear Models ([Link to Notebook](https://github.com/brian1581/final-project/blob/master/Jupyter_notebooks/ridge_regression_scaled.ipynb))
 
-To predict a movie's potential box office revenue (the widely used metric of success), we must determine which features have an important positive effect on the target. Outliers were removed from the dataframe for movies where box office and revenue were greater than three standard deviations above the mean.  Removing these outlier movies increased training and test scores roughly 10%. Models that penalized certiain coeficient values to create better fit were tried (Ridge, Lasso, ElasticNet), but our highest test scores were derived from a simple linear model (ordinary least squares regression).
+To predict a movie's potential box office revenue (the widely used metric of success), we must determine which features have an important positive effect on the target. Outliers were removed from the dataframe for movies where box office and revenue were greater than three standard deviations above the mean.  Removing these outlier movies increased training and test scores roughly 10%. Models that penalized / reduced the magnitude of certain coeficient values were tried (Ridge, Lasso, ElasticNet) to create a better fit, but our highest test scores were derived from a simple linear model (ordinary least squares regression).
 
 Using the OLS model, size of budget, genre, run time, and Starpower seem to be the important positive precursors to box office success. 
 <br><br><img src="https://github.com/brian1581/final-project/blob/master/Output/images/linear_reg_coefs.png" width="400"><br>
@@ -37,6 +37,8 @@ Using the OLS model, size of budget, genre, run time, and Starpower seem to be t
 Training score = 0.50<br>
 Testing score = 0.59
 <br><br>
+The residual plot above does not show a random distribution (more funnel shaped) indicating possible dependence between some X feature(s) and the y target.
+
 Interestingly, it appears that the genres "Drama" and "SciFi" have some of the most negative effects on revenue. We also would have expected the Action and Adventure genre to have a more positive relationship to revenue given the popularity of modern Superhero films.
 
 #### Deep Neural Network evaluation ([Link to Notebook]( https://github.com/brian1581/final-project/blob/master/Jupyter_notebooks/tomato_model_deep_2_reduce.ipynb))
