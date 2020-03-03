@@ -77,8 +77,6 @@ The fact we found the "None" genre scored highest relative to the Star Power tar
 
 * Incremental features like advertising budget, season in year, economic condition factor, director starpower and others could be added to enhance the model potential predictability
 
-* We would recommend additional information such as advertising budgets or current events/trends to also build a more accurate model
-
 
 ## Additional Item for Future Consideration
 The Animation genre would probably have to be in a separate bucket given the runtimes are typically shorter and other variables such as critic and vote counts might be skewed.
